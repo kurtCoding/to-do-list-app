@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+}
+.tribute-img {
+    width: 500px;
+    justify-content:flex-end;
+}
+.tribute-young-goku {
+    width: 400px;
+}
