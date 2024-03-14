@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 
 function addDeleteToButton(bttn) {
     bttn.addEventListener("click", event => {
-        event.target.parentNode.remove()
+        event.target.parentNode.remove();
     })
 }
 
@@ -31,6 +31,7 @@ form.addEventListener("submit", event => {
     todoLi.classList.add("to-dos__list-item");
     button.classList.add("to-dos__delete-button");
     button.innerText = "Delete";
+    addDeleteToButton(button);
     
     form.reset();
 })
